@@ -2,6 +2,6 @@ package goUtils
 
 import "fmt"
 
-func SayHi() {
-	fmt.Println("你好，我是七米。sdfdsfssdfsdfsddfsdf。")
+func SayHi(name string) {
+	fmt.Println("你好，我是:", name)
 }
